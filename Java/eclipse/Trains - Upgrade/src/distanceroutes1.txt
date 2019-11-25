@@ -1,0 +1,7 @@
+C-D-C
+C-E-B-C
+C-E-B-C-D-C
+C-D-C-E-B-C
+C-D-E-B-C
+C-E-B-C-E-B-C
+C-E-B-C-E-B-C-E-B-C

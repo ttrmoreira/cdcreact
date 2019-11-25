@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        Hello from Facelets
+    </h:body>
+    <h:form>
+        <p:poll 
+            interval="3" 
+            update=":basic" 
+            autoStart="true" /> 
+    </h:form>
+    <p:barChart id="basic" value="#{chartBean.categoryModel}" legendPosition="ne"
+            title="Basic Bar Chart" min="0" max="200" style="height:300px"/>
+    <p:barChart id="horizontal" value="#{chartBean.categoryModel}" legendPosition="se" style="height:300px"
+            title="Horizontal Bar Chart" orientation="horizontal" min="0" max="200"/>
+    <p:barChart id="stacked" value="#{chartBean.categoryModel}" legendPosition="ne" style="height:300px"
+            title="Stacked Bar Chart" stacked="true" barMargin="50" min="0" max="300"/>
+                    
+</html>
+

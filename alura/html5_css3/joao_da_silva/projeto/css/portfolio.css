@@ -1,0 +1,11 @@
+.projeto-portfolio{
+	border: 8px solid black;
+	display:inline-block;
+	background-color: #FAFFFC;
+	font-size: 16px;
+	float:left;    
+	box-sizing: border-box;
+    width: 350px;
+    margin: 5px;
+    padding: 2px;
+}

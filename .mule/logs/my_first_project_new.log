@@ -1,0 +1,54 @@
+2017-04-03 22:19:00,280 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'my_first_project_new'                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-04-03 22:19:00,615 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2017-04-03 22:19:00,778 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2017-04-03 22:19:00,971 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2017-04-03 22:19:00,971 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.8)
+2017-04-03 22:19:01,099 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@192f2f27: startup date [Mon Apr 03 22:19:01 BRT 2017]; root of context hierarchy
+2017-04-03 22:19:03,480 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-04-03 22:19:04,717 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2017-04-03 22:19:05,595 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\Tiago\Dropbox\DocumentosThiago\!Thiago\workspace\.mule\.\.mule\my_first_project_new\queue-tx-log\tx1.log and C:\Users\Tiago\Dropbox\DocumentosThiago\!Thiago\workspace\.mule\.\.mule\my_first_project_new\queue-tx-log\tx2.log
+2017-04-03 22:19:05,628 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\Users\Tiago\Dropbox\DocumentosThiago\!Thiago\workspace\.mule\.\.mule\my_first_project_new\queue-xa-tx-log\tx1.log and C:\Users\Tiago\Dropbox\DocumentosThiago\!Thiago\workspace\.mule\.\.mule\my_first_project_new\queue-xa-tx-log\tx2.log
+2017-04-03 22:19:05,821 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2017-04-03 22:19:05,826 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: my_first_project_newFlow
+2017-04-03 22:19:05,826 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1015a4b9
+2017-04-03 22:19:05,865 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: my_first_project_newFlow.stage1
+2017-04-03 22:19:05,875 [main] INFO  org.mule.component.ComponentLifecycleManager - Initialising component: component.1974356511
+2017-04-03 22:19:06,609 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\Tiago\Dropbox\DocumentosThiago\!Thiago\workspace\.mule\apps\my_first_project_new\my_first_project_new.xml'}]"
+2017-04-03 22:19:06,609 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\Users\Tiago\Dropbox\DocumentosThiago\!Thiago\workspace\.mule\apps\my_first_project_new\my_first_project_new.xml'}]"
+2017-04-03 22:19:09,659 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'my_first_project_new'                      +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-04-03 22:19:09,661 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2017-04-03 22:19:09,661 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2017-04-03 22:19:09,766 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://localhost:8081
+2017-04-03 22:19:09,770 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-04-03 22:19:09,774 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2017-04-03 22:19:09,776 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: my_first_project_newFlow
+2017-04-03 22:19:09,777 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: my_first_project_newFlow.stage1
+2017-04-03 22:19:09,784 [main] INFO  org.mule.component.ComponentLifecycleManager - Starting component: component.1974356511
+2017-04-03 22:19:09,887 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2017-04-03 22:19:09,947 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: my_first_project_new                                  *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   Batch module default engine                                      *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2017-04-03 22:19:45,497 [[my_first_project_new].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/teste
+2017-04-03 22:19:45,497 [[my_first_project_new].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [(*)/]
+2017-04-03 22:19:45,746 [[my_first_project_new].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/favicon.ico
+2017-04-03 22:19:45,746 [[my_first_project_new].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [(*)/]
+2017-04-03 22:19:46,028 [[my_first_project_new].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/favicon.ico
+2017-04-03 22:19:46,028 [[my_first_project_new].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [(*)/]

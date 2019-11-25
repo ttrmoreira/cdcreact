@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;OreillyLearning-UMLExamples/default.umlcsd&apos; to &apos;OreillyLearningCompositeStructures.umlcsd&apos;" description="Rename resource &apos;default.umlcsd&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="default.umlcsd" name="OreillyLearningCompositeStructures.umlcsd" stamp="1313692204325" updateReferences="true"/>
+</session>

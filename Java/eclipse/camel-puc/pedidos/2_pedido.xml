@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pedido>
+    <id>6532463</id>
+    <dataCompra>2013-12-05T18:10:07.963-02:00</dataCompra>
+    <itens>
+		<item>
+            <formato>IMPRESSO</formato>
+            <quantidade>1</quantidade>
+            <livro>
+                <codigo>ACON</codigo>
+                <titulo>A Vida Intelectual. Seu Espírito, Suas Condições, Seus Métodos</titulo>
+                <tituloCurto>VIDA INTELECTUAL</tituloCurto>
+                <nomeAutor>Antonin-Dalmace Sertillanges (Autor), Roberto Mallet (Tradutor)</nomeAutor>
+                <valorEbook>19.15</valorEbook>
+                <valorImpresso>35.18</valorImpresso>
+            </livro>
+        </item>
+        <item>
+            <formato>EBOOK</formato>
+            <quantidade>1</quantidade>
+            <livro>
+                <codigo>ACON</codigo>
+                <titulo>Como Ler Livros</titulo>
+                <tituloCurto>LER LIVROS</tituloCurto>
+                <nomeAutor>Mortimer Adler</nomeAutor>
+                <valorEbook>54.12</valorEbook>
+                <valorImpresso>91.60</valorImpresso>
+            </livro>
+        </item>
+    </itens>
+    <pagamento>
+        <status>CONFIRMADO</status>
+        <valor>89.30</valor>
+        <titular>Hebert Toledo</titular>
+        <email-titular>htoledo@efg.com</email-titular>
+    </pagamento>
+</pedido>

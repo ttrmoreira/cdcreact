@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_jTg_oN1UEeCjJqymtTccsA" type="UMLDeployment" name="default.umldepl" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_jnlLIN1UEeCjJqymtTccsA" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_jnlyMN1UEeCjJqymtTccsA" type="5001"/>
+    <children xmi:type="notation:Node" xmi:id="_jnmZQN1UEeCjJqymtTccsA" type="7001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_jnmZQd1UEeCjJqymtTccsA" collapsed="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jnmZQt1UEeCjJqymtTccsA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jnmZQ91UEeCjJqymtTccsA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_jnlLId1UEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Package" href="ItaliaVirtualDeployment.uml#_jSSQkN1UEeCjJqymtTccsA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jnlLIt1UEeCjJqymtTccsA"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_5T67wN1UEeCjJqymtTccsA" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_5T7i0N1UEeCjJqymtTccsA" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_5T8J4N1UEeCjJqymtTccsA" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_-YiFIN1UEeCjJqymtTccsA" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_-YjTQN1UEeCjJqymtTccsA" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_-YkhYN1UEeCjJqymtTccsA" type="7006">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_-YkhYd1UEeCjJqymtTccsA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_-YkhYt1UEeCjJqymtTccsA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_-YkhY91UEeCjJqymtTccsA"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_-YiFId1UEeCjJqymtTccsA" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="ItaliaVirtualDeployment.uml#_-YKRsN1UEeCjJqymtTccsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-YiFIt1UEeCjJqymtTccsA" x="9" y="7" width="246" height="91"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_JzzOkN1VEeCjJqymtTccsA" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_Jzz1oN1VEeCjJqymtTccsA" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_Jzz1od1VEeCjJqymtTccsA" type="7006">
+          <children xmi:type="notation:Node" xmi:id="_u5M-cN1WEeCjJqymtTccsA" type="3006">
+            <element xmi:type="uml:Artifact" href="ItaliaVirtualDeployment.uml#_u5He4N1WEeCjJqymtTccsA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_u5M-cd1WEeCjJqymtTccsA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aRRv0N1kEeCjJqymtTccsA" type="3006">
+            <element xmi:type="uml:Artifact" href="ItaliaVirtualDeployment.uml#_aRRIwN1kEeCjJqymtTccsA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_aRRv0d1kEeCjJqymtTccsA"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_Jzz1ot1VEeCjJqymtTccsA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Jzz1o91VEeCjJqymtTccsA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Jzz1pN1VEeCjJqymtTccsA"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_JzzOkd1VEeCjJqymtTccsA" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="ItaliaVirtualDeployment.uml#_Jzj-AN1VEeCjJqymtTccsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JzzOkt1VEeCjJqymtTccsA" x="14" y="107" width="246"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Szd4QN1VEeCjJqymtTccsA" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_SzefUN1VEeCjJqymtTccsA" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_SzfGYN1VEeCjJqymtTccsA" type="7006">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_SzfGYd1VEeCjJqymtTccsA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_SzfGYt1VEeCjJqymtTccsA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_SzfGY91VEeCjJqymtTccsA"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_Szd4Qd1VEeCjJqymtTccsA" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="ItaliaVirtualDeployment.uml#_SzMygN1VEeCjJqymtTccsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Szd4Qt1VEeCjJqymtTccsA" x="94" y="232"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_5T8J4d1UEeCjJqymtTccsA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_5T8J4t1UEeCjJqymtTccsA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_5T67wd1UEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Device" href="ItaliaVirtualDeployment.uml#_5TwjsN1UEeCjJqymtTccsA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5T67wt1UEeCjJqymtTccsA" x="480" y="80" width="316" height="396"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_XA7XMN1VEeCjJqymtTccsA" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_XA7-QN1VEeCjJqymtTccsA" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_XA7-Qd1VEeCjJqymtTccsA" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_0U1WIN1VEeCjJqymtTccsA" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_0U19MN1VEeCjJqymtTccsA" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_0U19Md1VEeCjJqymtTccsA" type="7006">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_0U19Mt1VEeCjJqymtTccsA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_0U19M91VEeCjJqymtTccsA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_0U19NN1VEeCjJqymtTccsA"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_0U1WId1VEeCjJqymtTccsA" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="ItaliaVirtualDeployment.uml#_0Uk3cN1VEeCjJqymtTccsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0U1WIt1VEeCjJqymtTccsA" x="20" y="11"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_XA7-Qt1VEeCjJqymtTccsA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_XA7-Q91VEeCjJqymtTccsA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_XA7XMd1VEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Device" href="ItaliaVirtualDeployment.uml#_XA1QkN1VEeCjJqymtTccsA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XA7XMt1VEeCjJqymtTccsA" x="145" y="60" width="211" height="186"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_7ry8oN1VEeCjJqymtTccsA" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_7rzjsN1VEeCjJqymtTccsA" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_7rzjsd1VEeCjJqymtTccsA" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_-felMN1VEeCjJqymtTccsA" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_-ffzUN1VEeCjJqymtTccsA" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_-ffzUd1VEeCjJqymtTccsA" type="7006">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_-ffzUt1VEeCjJqymtTccsA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_-ffzU91VEeCjJqymtTccsA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_-ffzVN1VEeCjJqymtTccsA"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_-felMd1VEeCjJqymtTccsA" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="ItaliaVirtualDeployment.uml#_-fPUoN1VEeCjJqymtTccsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ffMQN1VEeCjJqymtTccsA" x="9" y="12"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7rzjst1VEeCjJqymtTccsA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7rzjs91VEeCjJqymtTccsA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_7ry8od1VEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Device" href="ItaliaVirtualDeployment.uml#_7rid8N1VEeCjJqymtTccsA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ry8ot1VEeCjJqymtTccsA" x="75" y="420" width="186" height="191"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_FUi_kN1WEeCjJqymtTccsA" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_FUjmoN1WEeCjJqymtTccsA" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_FUjmod1WEeCjJqymtTccsA" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_KZZZgN1WEeCjJqymtTccsA" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_KZanoN1WEeCjJqymtTccsA" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_KZanod1WEeCjJqymtTccsA" type="7006">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_KZanot1WEeCjJqymtTccsA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_KZano91WEeCjJqymtTccsA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_KZanpN1WEeCjJqymtTccsA"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_KZaAkN1WEeCjJqymtTccsA" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="ItaliaVirtualDeployment.uml#_KZKI8N1WEeCjJqymtTccsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KZaAkd1WEeCjJqymtTccsA" x="14" y="2"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FUjmot1WEeCjJqymtTccsA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FUjmo91WEeCjJqymtTccsA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_FUi_kd1WEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Device" href="ItaliaVirtualDeployment.uml#_FUSg4N1WEeCjJqymtTccsA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FUi_kt1WEeCjJqymtTccsA" x="270" y="420" width="191" height="191"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_rufqEN1jEeCjJqymtTccsA" type="2004">
+    <children xmi:type="notation:Node" xmi:id="_ruhfQN1jEeCjJqymtTccsA" type="5003"/>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_rufqEd1jEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Node" href="ItaliaVirtualDeployment.uml#_ruPLYN1jEeCjJqymtTccsA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rufqEt1jEeCjJqymtTccsA" x="572" y="558"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_jf0jAN1kEeCjJqymtTccsA" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_jf1xIN1kEeCjJqymtTccsA" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_jf1xId1kEeCjJqymtTccsA" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_MvMOYN1lEeCjJqymtTccsA" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_MvM1cN1lEeCjJqymtTccsA" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_MvNcgN1lEeCjJqymtTccsA" type="7006">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_MvNcgd1lEeCjJqymtTccsA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_MvNcgt1lEeCjJqymtTccsA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_MvNcg91lEeCjJqymtTccsA"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_MvMOYd1lEeCjJqymtTccsA" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="ItaliaVirtualDeployment.uml#_Mu890N1lEeCjJqymtTccsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MvMOYt1lEeCjJqymtTccsA" x="24" y="10" width="165" height="78"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jf1xIt1kEeCjJqymtTccsA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jf1xI91kEeCjJqymtTccsA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_jf0jAd1kEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Device" href="ItaliaVirtualDeployment.uml#_jfkrYN1kEeCjJqymtTccsA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jf0jAt1kEeCjJqymtTccsA" x="900" y="32" width="251" height="161"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_9sdPAN1kEeCjJqymtTccsA" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_9sd2EN1kEeCjJqymtTccsA" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_9sd2Ed1kEeCjJqymtTccsA" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_O8Zs0N1lEeCjJqymtTccsA" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_O8aT4N1lEeCjJqymtTccsA" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_O8aT4d1lEeCjJqymtTccsA" type="7006">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_O8aT4t1lEeCjJqymtTccsA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_O8aT491lEeCjJqymtTccsA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_O8aT5N1lEeCjJqymtTccsA"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_O8Zs0d1lEeCjJqymtTccsA" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="ItaliaVirtualDeployment.uml#_O8J1MN1lEeCjJqymtTccsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O8Zs0t1lEeCjJqymtTccsA" x="29" y="7" height="78"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9sd2Et1kEeCjJqymtTccsA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9sd2E91kEeCjJqymtTccsA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_9sdPAd1kEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Device" href="ItaliaVirtualDeployment.uml#_9sMwUN1kEeCjJqymtTccsA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9sdPAt1kEeCjJqymtTccsA" x="900" y="227" width="246" height="151"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_BMbV0N1lEeCjJqymtTccsA" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_BMcj8N1lEeCjJqymtTccsA" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_BMcj8d1lEeCjJqymtTccsA" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_QeoUkN1lEeCjJqymtTccsA" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_Qeo7oN1lEeCjJqymtTccsA" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_QepisN1lEeCjJqymtTccsA" type="7006">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_Qepisd1lEeCjJqymtTccsA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Qepist1lEeCjJqymtTccsA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Qepis91lEeCjJqymtTccsA"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_QeoUkd1lEeCjJqymtTccsA" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="ItaliaVirtualDeployment.uml#_QeZEAN1lEeCjJqymtTccsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QeoUkt1lEeCjJqymtTccsA" x="44" height="72"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_BMcj8t1lEeCjJqymtTccsA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_BMcj891lEeCjJqymtTccsA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_BMb84N1lEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Device" href="ItaliaVirtualDeployment.uml#_BMLeMN1lEeCjJqymtTccsA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BMb84d1lEeCjJqymtTccsA" x="930" y="390"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_B42W8N1lEeCjJqymtTccsA" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_B42-AN1lEeCjJqymtTccsA" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_B43lEN1lEeCjJqymtTccsA" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_RLO74N1lEeCjJqymtTccsA" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_RLPi8N1lEeCjJqymtTccsA" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_RLQKAN1lEeCjJqymtTccsA" type="7006">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_RLQKAd1lEeCjJqymtTccsA" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RLQKAt1lEeCjJqymtTccsA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RLQKA91lEeCjJqymtTccsA"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_RLO74d1lEeCjJqymtTccsA" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="ItaliaVirtualDeployment.uml#_RK_EQN1lEeCjJqymtTccsA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RLO74t1lEeCjJqymtTccsA" x="29" y="10" height="68"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_B43lEd1lEeCjJqymtTccsA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_B43lEt1lEeCjJqymtTccsA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_B42W8d1lEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Device" href="ItaliaVirtualDeployment.uml#_B4l4QN1lEeCjJqymtTccsA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B42W8t1lEeCjJqymtTccsA" x="910" y="547" width="256" height="146"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_jTg_od1UEeCjJqymtTccsA"/>
+  <element xmi:type="uml:Package" href="ItaliaVirtualDeployment.uml#_jSSQkN1UEeCjJqymtTccsA"/>
+  <edges xmi:type="notation:Edge" xmi:id="_tgacAN1VEeCjJqymtTccsA" type="4004" source="_XA7XMN1VEeCjJqymtTccsA" target="_5T67wN1UEeCjJqymtTccsA">
+    <children xmi:type="notation:Node" xmi:id="_tgacBN1VEeCjJqymtTccsA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tgbDEN1VEeCjJqymtTccsA" y="20"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_tgacAd1VEeCjJqymtTccsA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tgacAt1VEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="ItaliaVirtualDeployment.uml#_tgWxoN1VEeCjJqymtTccsA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tgacA91VEeCjJqymtTccsA" points="[9, 0, -493, -19]$[509, 13, 7, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tgdfUN1VEeCjJqymtTccsA" id="(0.98578197,0.50537634)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tgdfUd1VEeCjJqymtTccsA" id="(0.9778481,0.18205129)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_bj-ZsN1XEeCjJqymtTccsA" type="4004" source="_FUi_kN1WEeCjJqymtTccsA" target="_5T67wN1UEeCjJqymtTccsA">
+    <children xmi:type="notation:Node" xmi:id="_bj-ZtN1XEeCjJqymtTccsA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bj-Ztd1XEeCjJqymtTccsA" x="43" y="37"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_bj-Zsd1XEeCjJqymtTccsA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_bj-Zst1XEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="ItaliaVirtualDeployment.uml#_bj46IN1XEeCjJqymtTccsA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bj-Zs91XEeCjJqymtTccsA" points="[0, -2, -447, 91]$[0, -93, -447, 0]$[140, -93, -307, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bkAO4N1XEeCjJqymtTccsA" id="(0.37172773,0.010471204)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bkA18N1XEeCjJqymtTccsA" id="(0.9746835,0.63076925)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_dNRSwN1XEeCjJqymtTccsA" type="4004" source="_7ry8oN1VEeCjJqymtTccsA" target="_5T67wN1UEeCjJqymtTccsA">
+    <children xmi:type="notation:Node" xmi:id="_dNR50N1XEeCjJqymtTccsA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_dNR50d1XEeCjJqymtTccsA" y="20"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_dNRSwd1XEeCjJqymtTccsA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_dNRSwt1XEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="ItaliaVirtualDeployment.uml#_dNOPcN1XEeCjJqymtTccsA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dNRSw91XEeCjJqymtTccsA" points="[0, -4, -589, 136]$[0, -140, -589, 0]$[278, -140, -311, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dNUWEN1XEeCjJqymtTccsA" id="(0.6827957,0.020942409)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dNUWEd1XEeCjJqymtTccsA" id="(0.98734176,0.5153846)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_udbVgN1jEeCjJqymtTccsA" type="4004" source="_5T67wN1UEeCjJqymtTccsA" target="_rufqEN1jEeCjJqymtTccsA">
+    <children xmi:type="notation:Node" xmi:id="_udb8kN1jEeCjJqymtTccsA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_udb8kd1jEeCjJqymtTccsA" x="60" y="50"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_udbVgd1jEeCjJqymtTccsA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_udbVgt1jEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="ItaliaVirtualDeployment.uml#_udXrIN1jEeCjJqymtTccsA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_udbVg91jEeCjJqymtTccsA" points="[-77, 74, 98, -94]$[-181, 156, -6, -12]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_udeY0N1jEeCjJqymtTccsA" id="(0.9746835,0.8484849)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_udeY0d1jEeCjJqymtTccsA" id="(0.42,0.2)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_6exAcN1jEeCjJqymtTccsA" type="4004" source="_JzzOkN1VEeCjJqymtTccsA" target="_Szd4QN1VEeCjJqymtTccsA">
+    <children xmi:type="notation:Node" xmi:id="_6exAdN1jEeCjJqymtTccsA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6exAdd1jEeCjJqymtTccsA" x="2" y="44"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_6exAcd1jEeCjJqymtTccsA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6exAct1jEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="ItaliaVirtualDeployment.uml#_6eukMN1jEeCjJqymtTccsA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6exAc91jEeCjJqymtTccsA" points="[-22, 50, 27, -62]$[-27, 62, 22, -50]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CV7J8N1kEeCjJqymtTccsA" id="(0.4593496,0.96)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_97T_0N1jEeCjJqymtTccsA" id="(0.24161074,0.59)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_1F5MYN1lEeCjJqymtTccsA" type="4004" source="_jf0jAN1kEeCjJqymtTccsA" target="_5T67wN1UEeCjJqymtTccsA">
+    <children xmi:type="notation:Node" xmi:id="_1F5zcN1lEeCjJqymtTccsA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1F5zcd1lEeCjJqymtTccsA" y="20"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_1F5MYd1lEeCjJqymtTccsA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1F5MYt1lEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="ItaliaVirtualDeployment.uml#_1F3-QN1lEeCjJqymtTccsA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1F5MY91lEeCjJqymtTccsA" points="[-244, 45, 113, -22]$[-348, 58, 9, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1F6agN1lEeCjJqymtTccsA" id="(0.9721116,0.24844721)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1F6agd1lEeCjJqymtTccsA" id="(0.971519,0.1489899)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_4bX6cN1lEeCjJqymtTccsA" type="4004" source="_9sdPAN1kEeCjJqymtTccsA" target="_5T67wN1UEeCjJqymtTccsA">
+    <children xmi:type="notation:Node" xmi:id="_4bX6dN1lEeCjJqymtTccsA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4bYhgN1lEeCjJqymtTccsA" y="20"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_4bX6cd1lEeCjJqymtTccsA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4bX6ct1lEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="ItaliaVirtualDeployment.uml#_4bUQEN1lEeCjJqymtTccsA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4bX6c91lEeCjJqymtTccsA" points="[-186, 49, 114, -30]$[-290, 80, 10, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4baWsN1lEeCjJqymtTccsA" id="(0.7601626,0.013245033)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4baWsd1lEeCjJqymtTccsA" id="(0.9683544,0.57323235)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5_95sN1lEeCjJqymtTccsA" type="4004" source="_BMbV0N1lEeCjJqymtTccsA" target="_5T67wN1UEeCjJqymtTccsA">
+    <children xmi:type="notation:Node" xmi:id="_5_95tN1lEeCjJqymtTccsA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5_95td1lEeCjJqymtTccsA" x="-18" y="-44"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_5_95sd1lEeCjJqymtTccsA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5_95st1lEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="ItaliaVirtualDeployment.uml#_5_7dcN1lEeCjJqymtTccsA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5_95s91lEeCjJqymtTccsA" points="[-31, -4, 270, 42]$[-292, -44, 9, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5__u4N1lEeCjJqymtTccsA" id="(0.05327869,0.25)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5__u4d1lEeCjJqymtTccsA" id="(0.971519,0.6792929)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="__eVm4N1lEeCjJqymtTccsA" type="4004" source="_B42W8N1lEeCjJqymtTccsA" target="_5T67wN1UEeCjJqymtTccsA">
+    <children xmi:type="notation:Node" xmi:id="__eW1AN1lEeCjJqymtTccsA" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__eW1Ad1lEeCjJqymtTccsA" x="-17" y="-42"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="__eVm4d1lEeCjJqymtTccsA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="__eVm4t1lEeCjJqymtTccsA" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="ItaliaVirtualDeployment.uml#__eTKoN1lEeCjJqymtTccsA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__eVm491lEeCjJqymtTccsA" points="[-9, -5, 130, 95]$[-130, -90, 9, 10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__eYDIN1lEeCjJqymtTccsA" id="(0.0625,0.04109589)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__eYqMN1lEeCjJqymtTccsA" id="(0.971519,0.93939394)"/>
+  </edges>
+</notation:Diagram>

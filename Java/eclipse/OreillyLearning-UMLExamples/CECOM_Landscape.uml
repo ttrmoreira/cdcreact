@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_8gGWAM3AEeCbwb7pqQ1EUw" name="Package">
+  <elementImport xmi:id="_8gySgM3AEeCbwb7pqQ1EUw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_8gy5kM3AEeCbwb7pqQ1EUw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_8gy5kc3AEeCbwb7pqQ1EUw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_8gy5ks3AEeCbwb7pqQ1EUw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_uOx0EM9CEeCkQ-XBknolRQ" name="Integration Italia Virtual Layer" clientDependency="_ozdHoNznEeCGIJRDjKlFBA">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ozdHoNznEeCGIJRDjKlFBA" supplier="_9VGkcNScEeC_9sCRvaiejQ" client="_uOx0EM9CEeCkQ-XBknolRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_54UUgNScEeC_9sCRvaiejQ" name="Presentation Italia Virtual Layer " clientDependency="_cYRhkNSdEeC_9sCRvaiejQ _H3zXMNztEeCGIJRDjKlFBA _XdtVENztEeCGIJRDjKlFBA">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_cYRhkNSdEeC_9sCRvaiejQ" supplier="_9VGkcNScEeC_9sCRvaiejQ" client="_54UUgNScEeC_9sCRvaiejQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_H3zXMNztEeCGIJRDjKlFBA" supplier="_7BlSsNzsEeCGIJRDjKlFBA" client="_54UUgNScEeC_9sCRvaiejQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_XdtVENztEeCGIJRDjKlFBA" supplier="_SwBd8NztEeCGIJRDjKlFBA" client="_54UUgNScEeC_9sCRvaiejQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_9VGkcNScEeC_9sCRvaiejQ" name="Business Italia Virtual Layer" clientDependency="_a0cXUNSdEeC_9sCRvaiejQ _2G6IcNzsEeCGIJRDjKlFBA _FJSigNztEeCGIJRDjKlFBA">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_a0cXUNSdEeC_9sCRvaiejQ" supplier="_EKpf8NSdEeC_9sCRvaiejQ" client="_9VGkcNScEeC_9sCRvaiejQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_2G6IcNzsEeCGIJRDjKlFBA" supplier="_zr6FoNzsEeCGIJRDjKlFBA" client="_9VGkcNScEeC_9sCRvaiejQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_FJSigNztEeCGIJRDjKlFBA" supplier="_7BlSsNzsEeCGIJRDjKlFBA" client="_9VGkcNScEeC_9sCRvaiejQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_EKpf8NSdEeC_9sCRvaiejQ" name="Data Italia Virtual Layer"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_zr6FoNzsEeCGIJRDjKlFBA" name="Java Mail API"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_7BlSsNzsEeCGIJRDjKlFBA" name="JAAS"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_SwBd8NztEeCGIJRDjKlFBA" name="OLDAP"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_j8n3YNzuEeCGIJRDjKlFBA" name="RIA Italia Virtual Layer" clientDependency="_po7S4NzuEeCGIJRDjKlFBA">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_po7S4NzuEeCGIJRDjKlFBA" supplier="_9VGkcNScEeC_9sCRvaiejQ" client="_j8n3YNzuEeCGIJRDjKlFBA"/>
+  </packagedElement>
+</uml:Package>

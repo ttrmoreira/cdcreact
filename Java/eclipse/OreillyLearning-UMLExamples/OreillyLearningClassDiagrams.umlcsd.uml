@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_7iu5gMnIEeCtC8mIdA0KzQ" name="Package">
+  <elementImport xmi:id="_7jS6MMnIEeCtC8mIdA0KzQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_7jS6McnIEeCtC8mIdA0KzQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_7jS6MsnIEeCtC8mIdA0KzQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_7jS6M8nIEeCtC8mIdA0KzQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_BRkroMnJEeCtC8mIdA0KzQ" name="users" clientDependency="_xjIK4MnKEeCtC8mIdA0KzQ">
+    <packagedElement xmi:type="uml:Class" xmi:id="_KgeEIMnJEeCtC8mIdA0KzQ" name="User" visibility="package"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_xjIK4MnKEeCtC8mIdA0KzQ" name="&lt;&lt;import>>" supplier="_7jQBcMnJEeCtC8mIdA0KzQ" client="_BRkroMnJEeCtC8mIdA0KzQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_7jQBcMnJEeCtC8mIdA0KzQ" name="security">
+    <packagedElement xmi:type="uml:Class" xmi:id="_B-JoUMnKEeCtC8mIdA0KzQ" name="Credentials"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TiRmYMnKEeCtC8mIdA0KzQ" name="IdentityVerifier"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Yer2AMnKEeCtC8mIdA0KzQ" name="MD5Crypt" visibility="private"/>
+  </packagedElement>
+</uml:Package>

@@ -1,0 +1,26 @@
+{
+  "name": "estilohba",
+  "version": "1.0.0",
+  "description": "App de definição de roupas adequadas para uma ocasião baseada no perfil do usuário",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "estilohba"
+  },
+  "keywords": [
+    "app",
+    "nodejs",
+    "mongodb",
+    "rest"
+  ],
+  "author": "Thiago Moreira",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.3"
+  }
+}

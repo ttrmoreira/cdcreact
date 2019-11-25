@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:twitter="http://www.mulesoft.org/schema/mule/twitter" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="CE-3.4.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/twitter http://www.mulesoft.org/schema/mule/twitter/2.4/mule-twitter.xsd">
+    <twitter:config name="Twitter1" accessKey="39786672-WhKgRcrmvQPcOe5Klo76iCY1dNgsW0xJMVVNy8Akh" accessSecret="FB5yxDf5fGSUVDtGIlUmfWmJl6oCifEYLHPapgGrcOFyA" consumerKey="I1whx1VJK6UUyYOpJmlrWlRb9" consumerSecret="j0a9XubHqdjAf8ZA6qmHAPFVjuz2alYZ0IML0OGYUsKzc5xuM1" doc:name="Twitter">
+        <twitter:connection-pooling-profile initialisationPolicy="INITIALISE_ONE" exhaustedAction="WHEN_EXHAUSTED_GROW"/>
+    </twitter:config>
+    <flow name="connector_tutorialFlow1" doc:name="connector_tutorialFlow1">
+        <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8081" path="gettweets" doc:name="HTTP"/>
+        <twitter:get-user-timeline-by-screen-name config-ref="Twitter1" screenName="#[message.inboundProperties['http.query.params']['sname']]" doc:name="Get Twitter Timeline"/>
+        <foreach doc:name="For Each">
+            <logger message="#[payload.text]" level="INFO" doc:name="Logger"/>
+        </foreach>
+        <set-payload value="RT @#[message.payload[0].user.screenName]: #[message.payload[0].text]" doc:name="Set Payload"/>
+        <twitter:update-status config-ref="Twitter1" status="#[message.payload]" doc:name="Publish to Twitter"/>
+    </flow>
+</mule>

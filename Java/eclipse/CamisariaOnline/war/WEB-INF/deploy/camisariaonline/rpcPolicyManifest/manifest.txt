@@ -1,0 +1,3 @@
+# Module camisariaonline
+# RPC service class, partial path of RPC policy file
+camisaria.client.GreetingService, A196C4799AC3515006FD4BC3D2A6C8CA.gwt.rpc

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="CE-3.4.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+    <flow name="cbr_tutorialFlow1" doc:name="cbr_tutorialFlow1">
+        <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8081" doc:name="HTTP"/>
+        <response>
+            <logger message="The reply &quot;#[message.payload]&quot; means &quot;hello&quot; in #[flowVars['language']]." level="INFO" doc:name="Logger"/>
+        </response>
+        <response>
+            <choice doc:name="Choice">
+                <when expression="#[flowVars['language'] == 'Spanish']">
+                    <set-payload value="Hola!" doc:name="Reply in Spanish"/>
+                </when>
+                <when expression="#[flowVars['language'] == 'French']">
+                    <set-payload value="Bonjour!" doc:name="Reply in Frech"/>
+                </when>
+                <otherwise>
+                    <flow-ref name="CBR_TutorialFlow2" doc:name="Flow Reference"/>
+                </otherwise>
+            </choice>
+        </response>
+        <expression-filter expression="#[message.payload != '/favicon.ico']" doc:name="Expression"/>
+        <set-variable variableName="language" value="#[message.inboundProperties['language']]" doc:name="Variable"/>
+    </flow>
+    <sub-flow name="CBR_TutorialFlow2" doc:name="CBR_TutorialFlow2">
+        <round-robin doc:name="Round Robin">
+            <processor-chain>
+                <logger message="No language specified. Using Klingon." level="INFO" doc:name="Logger"/>
+                <set-variable variableName="language" value="Klingon" doc:name="Set Language to Klingon"/>
+                <set-payload value="tlhIngan maH!" doc:name="Reply in Klingon"/>
+            </processor-chain>
+            <processor-chain>
+                <logger message="No language specified. Using Turkish." level="INFO" doc:name="Logger"/>
+                <set-variable variableName="language" value="Turkish" doc:name="Set Language to Turkish"/>
+                <set-payload value="Merhaba!" doc:name="Reply in Turkish"/>
+            </processor-chain>
+            <processor-chain>
+                <logger message="No language specified. Using Basque." level="INFO" doc:name="Logger"/>
+                <set-variable variableName="language" value="Basque" doc:name="Set Language to Basque"/>
+                <set-payload value="Kaixo!" doc:name="Reply in Basque"/>
+            </processor-chain>
+
+        </round-robin>
+    </sub-flow>
+</mule>

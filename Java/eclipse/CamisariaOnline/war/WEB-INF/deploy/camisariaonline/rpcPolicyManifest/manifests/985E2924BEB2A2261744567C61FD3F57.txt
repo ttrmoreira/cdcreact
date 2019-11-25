@@ -1,0 +1,2 @@
+serviceClass: camisaria.client.GreetingService
+path: A196C4799AC3515006FD4BC3D2A6C8CA.gwt.rpc

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MultitenancyHibernateShards/data/test.script&apos; to &apos;Contato.script&apos;" description="Rename resource &apos;test.script&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="data/test.script" name="Contato.script" stamp="1304441560286" updateReferences="true"/>
+</session>

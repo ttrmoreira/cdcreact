@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_0HpJQMzvEeCI8b8qUcpZug">
+  <elementImport xmi:id="_0NKicMzvEeCI8b8qUcpZug">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_0NKicczvEeCI8b8qUcpZug">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_0NKicszvEeCI8b8qUcpZug">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_0NKic8zvEeCI8b8qUcpZug">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_rVASIMzzEeCI8b8qUcpZug" name="diarioEletronico" clientDependency="_OlwYEMz2EeCI8b8qUcpZug _vIayAMz2EeCI8b8qUcpZug _SJS60Mz3EeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_zXBAwMzzEeCI8b8qUcpZug" name="Oracle 10g">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_bwBE0Mz0EeCI8b8qUcpZug" name="Conexões" type="_MoCRsMz3EeCI8b8qUcpZug" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_18KeEMzzEeCI8b8qUcpZug" name="academicoPos" clientDependency="_wXxWgMz1EeCI8b8qUcpZug _Chi_UMz2EeCI8b8qUcpZug _nAXFwMz2EeCI8b8qUcpZug _loNKkMz3EeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_AIvm0Mz0EeCI8b8qUcpZug" name="seguranca" clientDependency="_DnZ3EM2ZEeCbwb7pqQ1EUw">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_aLfFEMz2EeCI8b8qUcpZug" name="Autenticacao" type="_ijKhsMz2EeCI8b8qUcpZug" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_FwqRkMz0EeCI8b8qUcpZug" name="TurmaService" clientDependency="_nQdFUMz4EeCI8b8qUcpZug">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_2iKRoMz0EeCI8b8qUcpZug" name="serviços externos" type="_ErQ6UMz1EeCI8b8qUcpZug" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_37SnwMz0EeCI8b8qUcpZug" name="serviços internos" type="_AeNrEMz1EeCI8b8qUcpZug" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_AeNrEMz1EeCI8b8qUcpZug" name="Interface"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ErQ6UMz1EeCI8b8qUcpZug" name="Interface1"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_wXxWgMz1EeCI8b8qUcpZug" supplier="_AeNrEMz1EeCI8b8qUcpZug" client="_18KeEMzzEeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Chi_UMz2EeCI8b8qUcpZug" client="_18KeEMzzEeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_OlwYEMz2EeCI8b8qUcpZug" supplier="_AeNrEMz1EeCI8b8qUcpZug" client="_rVASIMzzEeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ijKhsMz2EeCI8b8qUcpZug" name="Interface2"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_nAXFwMz2EeCI8b8qUcpZug" supplier="_ijKhsMz2EeCI8b8qUcpZug" client="_18KeEMzzEeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_vIayAMz2EeCI8b8qUcpZug" supplier="_ijKhsMz2EeCI8b8qUcpZug" client="_rVASIMzzEeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_MoCRsMz3EeCI8b8qUcpZug" name="Interface3:datasource"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_SJS60Mz3EeCI8b8qUcpZug" supplier="_MoCRsMz3EeCI8b8qUcpZug" client="_rVASIMzzEeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_loNKkMz3EeCI8b8qUcpZug" supplier="_MoCRsMz3EeCI8b8qUcpZug" client="_18KeEMzzEeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_J70toMz4EeCI8b8qUcpZug" name="matricula" clientDependency="_PHrugMz4EeCI8b8qUcpZug _Q5hfkMz4EeCI8b8qUcpZug _dilfkMz9EeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_PHrugMz4EeCI8b8qUcpZug" supplier="_AeNrEMz1EeCI8b8qUcpZug" client="_J70toMz4EeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Q5hfkMz4EeCI8b8qUcpZug" supplier="_MoCRsMz3EeCI8b8qUcpZug" client="_J70toMz4EeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_nQdFUMz4EeCI8b8qUcpZug" supplier="_MoCRsMz3EeCI8b8qUcpZug" client="_FwqRkMz0EeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_dilfkMz9EeCI8b8qUcpZug" supplier="_ijKhsMz2EeCI8b8qUcpZug" client="_J70toMz4EeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_3SUwwM2YEeCbwb7pqQ1EUw" name="AcademicoGrad" clientDependency="_8HskQM2YEeCbwb7pqQ1EUw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_8HskQM2YEeCbwb7pqQ1EUw" supplier="_ErQ6UMz1EeCI8b8qUcpZug" client="_3SUwwM2YEeCbwb7pqQ1EUw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_DnZ3EM2ZEeCbwb7pqQ1EUw" supplier="_AeNrEMz1EeCI8b8qUcpZug" client="_AIvm0Mz0EeCI8b8qUcpZug"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_k6MtcM2ZEeCbwb7pqQ1EUw" name="IAP" clientDependency="_tq-mkM2ZEeCbwb7pqQ1EUw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_tq-mkM2ZEeCbwb7pqQ1EUw" supplier="_AeNrEMz1EeCI8b8qUcpZug" client="_k6MtcM2ZEeCbwb7pqQ1EUw"/>
+</uml:Package>

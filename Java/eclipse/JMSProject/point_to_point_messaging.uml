@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_x-kyoM2tEeCbwb7pqQ1EUw">
+  <elementImport xmi:id="_yAT4AM2tEeCbwb7pqQ1EUw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_yAT4Ac2tEeCbwb7pqQ1EUw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_yAT4As2tEeCbwb7pqQ1EUw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_yAT4A82tEeCbwb7pqQ1EUw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Device" xmi:id="_IYG5EM2xEeCbwb7pqQ1EUw" name="Laptop">
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_eEu9kM2xEeCbwb7pqQ1EUw" name="Application Server Glassfish 3.1">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_DUpw0M2yEeCbwb7pqQ1EUw" fileName="MyQueue"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_ELerIM2yEeCbwb7pqQ1EUw" fileName="MyConnection"/>
+    </nestedNode>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_thUK4M2yEeCbwb7pqQ1EUw" name="Java SE 6">
+      <ownedAttribute xmi:id="_6wBA0s2yEeCbwb7pqQ1EUw" name="dst" type="_eEu9kM2xEeCbwb7pqQ1EUw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6wBA1M2yEeCbwb7pqQ1EUw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6wBA082yEeCbwb7pqQ1EUw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8323EM2yEeCbwb7pqQ1EUw" name="dst" type="_eEu9kM2xEeCbwb7pqQ1EUw" association="_831o8M2yEeCbwb7pqQ1EUw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8323Es2yEeCbwb7pqQ1EUw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8323Ec2yEeCbwb7pqQ1EUw" value="1"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_0Y01QM2yEeCbwb7pqQ1EUw" fileName="CotacaoProvider.class"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_3x9UQM2yEeCbwb7pqQ1EUw" fileName="HomeBrokerSwing.class"/>
+    </nestedNode>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_831o8M2yEeCbwb7pqQ1EUw" name="&lt;&lt;CORBA>>" memberEnd="_831o8c2yEeCbwb7pqQ1EUw _8323EM2yEeCbwb7pqQ1EUw">
+    <ownedEnd xmi:id="_831o8c2yEeCbwb7pqQ1EUw" name="src" type="_thUK4M2yEeCbwb7pqQ1EUw" association="_831o8M2yEeCbwb7pqQ1EUw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_832QAc2yEeCbwb7pqQ1EUw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_832QAM2yEeCbwb7pqQ1EUw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>

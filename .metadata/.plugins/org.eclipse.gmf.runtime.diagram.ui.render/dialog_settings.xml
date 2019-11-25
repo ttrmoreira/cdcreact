@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CopyToImageDialog">
+		<item value="gif" key="CopyToImageDialog.imageFormat"/>
+		<item value="D:\Dropbox\PUC\JEE - Aquitetura de Aplicativos Ambiente Java EE" key="CopyToImageDialog.folder"/>
+		<item value="false" key="CopyToImageDialog.exportToHTML"/>
+		<item value="true" key="CopyToImageDialog.overwriteExisting"/>
+	</section>
+</section>

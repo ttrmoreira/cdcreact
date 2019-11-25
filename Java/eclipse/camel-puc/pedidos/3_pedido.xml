@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pedido>
+    <id>4298608</id>
+    <dataCompra>2013-12-05T18:10:07.963-02:00</dataCompra>
+    <itens>
+         <item>
+            <formato>IMPRESSO</formato>
+            <quantidade>1</quantidade>
+            <livro>
+                <codigo>AJ</codigo>
+                <titulo>12 Regras Para a Vida. Um Antídoto Para o Caos</titulo>
+                <tituloCurto>REGRAS PARA A VIDA</tituloCurto>
+                <nomeAutor>Peterson Jordan B.</nomeAutor>
+                <valorEbook>31.84</valorEbook>
+                <valorImpresso>37.71</valorImpresso>
+            </livro>
+        </item>
+        <item>
+            <formato>EBOOK</formato>
+            <quantidade>1</quantidade>
+            <livro>
+                <codigo>ROM</codigo>
+                <titulo>Dom Quixote</titulo>
+                <tituloCurto>DOM QUI</tituloCurto>
+                <nomeAutor>Miguel de Cervantes e Leonardo Chianca</nomeAutor>
+                <valorEbook>29.90</valorEbook>
+                <valorImpresso>79.90</valorImpresso>
+            </livro>
+        </item>
+    </itens>
+    <pagamento>
+        <status>CONFIRMADO</status>
+        <valor>67.61</valor>
+        <titular>Lucas Falcao</titular>
+        <email-titular>falcao@zxc.com</email-titular>
+    </pagamento>
+</pedido>

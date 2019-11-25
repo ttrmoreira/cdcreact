@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_jSSQkN1UEeCjJqymtTccsA">
+  <elementImport xmi:id="_jTACQN1UEeCjJqymtTccsA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_jTACQd1UEeCjJqymtTccsA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_jTACQt1UEeCjJqymtTccsA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_jTACQ91UEeCjJqymtTccsA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Device" xmi:id="_5TwjsN1UEeCjJqymtTccsA" name="Amazon EC2">
+    <ownedAttribute xmi:id="_udY5QN1jEeCjJqymtTccsA" name="dst" type="_ruPLYN1jEeCjJqymtTccsA" association="_udXrIN1jEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_udY5Qt1jEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_udY5Qd1jEeCjJqymtTccsA" value="1"/>
+    </ownedAttribute>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_-YKRsN1UEeCjJqymtTccsA" name="Red Hat Enterprise Linux"/>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_Jzj-AN1VEeCjJqymtTccsA" name="IBM WebSphere Application Server">
+      <ownedAttribute xmi:id="_gYBpcd1VEeCjJqymtTccsA" name="dst" type="_SzMygN1VEeCjJqymtTccsA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gYBpc91VEeCjJqymtTccsA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gYBpct1VEeCjJqymtTccsA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_zPA1Mt1jEeCjJqymtTccsA" name="dst" type="_SzMygN1VEeCjJqymtTccsA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zPBcQd1jEeCjJqymtTccsA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zPBcQN1jEeCjJqymtTccsA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_6evLQd1jEeCjJqymtTccsA" name="dst" type="_SzMygN1VEeCjJqymtTccsA" association="_6eukMN1jEeCjJqymtTccsA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6evLQ91jEeCjJqymtTccsA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6evLQt1jEeCjJqymtTccsA" value="1"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_u5He4N1WEeCjJqymtTccsA" fileName="ItaliaVirtual.ear"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_aRRIwN1kEeCjJqymtTccsA" fileName="Topic-ItaliaVirtual-JMS"/>
+    </nestedNode>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_SzMygN1VEeCjJqymtTccsA" name="Oracle Database 11g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_XA1QkN1VEeCjJqymtTccsA" name="PC Desktop">
+    <ownedAttribute xmi:id="_tgX_wd1VEeCjJqymtTccsA" name="dst" type="_5TwjsN1UEeCjJqymtTccsA" association="_tgWxoN1VEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tgX_w91VEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tgX_wt1VEeCjJqymtTccsA" value="1"/>
+    </ownedAttribute>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_0Uk3cN1VEeCjJqymtTccsA" name="Chrome/Firefox/Safari"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_tgWxoN1VEeCjJqymtTccsA" name="&lt;&lt;HTTP/HTTPS>>" memberEnd="_tgXYsN1VEeCjJqymtTccsA _tgX_wd1VEeCjJqymtTccsA">
+    <ownedEnd xmi:id="_tgXYsN1VEeCjJqymtTccsA" name="src" type="_XA1QkN1VEeCjJqymtTccsA" association="_tgWxoN1VEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tgX_wN1VEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tgXYsd1VEeCjJqymtTccsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_7rid8N1VEeCjJqymtTccsA" name="iPhone">
+    <ownedAttribute xmi:id="_dNO2gt1XEeCjJqymtTccsA" name="dst" type="_5TwjsN1UEeCjJqymtTccsA" association="_dNOPcN1XEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dNPdkd1XEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dNPdkN1XEeCjJqymtTccsA" value="1"/>
+    </ownedAttribute>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_-fPUoN1VEeCjJqymtTccsA" name="iOS 4"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_FUSg4N1WEeCjJqymtTccsA" name="Smartphone">
+    <ownedAttribute xmi:id="_bj79ct1XEeCjJqymtTccsA" name="dst" type="_5TwjsN1UEeCjJqymtTccsA" association="_bj46IN1XEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bj8kgN1XEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bj79c91XEeCjJqymtTccsA" value="1"/>
+    </ownedAttribute>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_KZKI8N1WEeCjJqymtTccsA" name="Android 3.1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_bj46IN1XEeCjJqymtTccsA" name="&lt;&lt;HTTP/HTTPS>>" memberEnd="_bj7WYN1XEeCjJqymtTccsA _bj79ct1XEeCjJqymtTccsA">
+    <ownedEnd xmi:id="_bj7WYN1XEeCjJqymtTccsA" name="src" type="_FUSg4N1WEeCjJqymtTccsA" association="_bj46IN1XEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bj79cd1XEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bj79cN1XEeCjJqymtTccsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_dNOPcN1XEeCjJqymtTccsA" name="&lt;&lt;HTTP/HTTPS>>" memberEnd="_dNOPcd1XEeCjJqymtTccsA _dNO2gt1XEeCjJqymtTccsA">
+    <ownedEnd xmi:id="_dNOPcd1XEeCjJqymtTccsA" name="src" type="_7rid8N1VEeCjJqymtTccsA" association="_dNOPcN1XEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dNO2gd1XEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dNO2gN1XEeCjJqymtTccsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_ruPLYN1jEeCjJqymtTccsA" name=".NET ERP"/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_udXrIN1jEeCjJqymtTccsA" name=".NET Remoting" memberEnd="_udXrId1jEeCjJqymtTccsA _udY5QN1jEeCjJqymtTccsA">
+    <ownedEnd xmi:id="_udXrId1jEeCjJqymtTccsA" name="src" type="_5TwjsN1UEeCjJqymtTccsA" association="_udXrIN1jEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_udYSMd1jEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_udYSMN1jEeCjJqymtTccsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_6eukMN1jEeCjJqymtTccsA" name="JDBC" memberEnd="_6eukMd1jEeCjJqymtTccsA _6evLQd1jEeCjJqymtTccsA">
+    <ownedEnd xmi:id="_6eukMd1jEeCjJqymtTccsA" name="src" type="_Jzj-AN1VEeCjJqymtTccsA" association="_6eukMN1jEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6evLQN1jEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6eukMt1jEeCjJqymtTccsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_jfkrYN1kEeCjJqymtTccsA" name="PC Desktop (Touch Screen)- Loja Norte ">
+    <ownedAttribute xmi:id="_1F4lUN1lEeCjJqymtTccsA" name="dst" type="_5TwjsN1UEeCjJqymtTccsA" association="_1F3-QN1lEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1F4lUt1lEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1F4lUd1lEeCjJqymtTccsA" value="1"/>
+    </ownedAttribute>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_Mu890N1lEeCjJqymtTccsA" name="Chrome/Firefox/Safari"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_9sMwUN1kEeCjJqymtTccsA" name="PC Desktop (Touch Screen)- Loja Sul ">
+    <ownedAttribute xmi:id="_4bVeMd1lEeCjJqymtTccsA" name="dst" type="_5TwjsN1UEeCjJqymtTccsA" association="_4bUQEN1lEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4bWFQN1lEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4bVeMt1lEeCjJqymtTccsA" value="1"/>
+    </ownedAttribute>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_O8J1MN1lEeCjJqymtTccsA" name="Environment"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_BMLeMN1lEeCjJqymtTccsA" name="PC Desktop (Touch Screen)- Loja Leste ">
+    <ownedAttribute xmi:id="_5_8Eg91lEeCjJqymtTccsA" name="dst" type="_5TwjsN1UEeCjJqymtTccsA" association="_5_7dcN1lEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5_8rkd1lEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5_8rkN1lEeCjJqymtTccsA" value="1"/>
+    </ownedAttribute>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_QeZEAN1lEeCjJqymtTccsA" name="Environment"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_B4l4QN1lEeCjJqymtTccsA" name="PC Desktop (Touch Screen)- Loja Oeste ">
+    <ownedAttribute xmi:id="__eTxst1lEeCjJqymtTccsA" name="dst" type="_5TwjsN1UEeCjJqymtTccsA" association="__eTKoN1lEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__eTxtN1lEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__eTxs91lEeCjJqymtTccsA" value="1"/>
+    </ownedAttribute>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_RK_EQN1lEeCjJqymtTccsA" name="Environment"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_1F3-QN1lEeCjJqymtTccsA" name="&lt;&lt;HTTP/HTTPS>>" memberEnd="_1F3-Qd1lEeCjJqymtTccsA _1F4lUN1lEeCjJqymtTccsA">
+    <ownedEnd xmi:id="_1F3-Qd1lEeCjJqymtTccsA" name="src" type="_jfkrYN1kEeCjJqymtTccsA" association="_1F3-QN1lEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1F3-Q91lEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1F3-Qt1lEeCjJqymtTccsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_4bUQEN1lEeCjJqymtTccsA" name="&lt;&lt;HTTP/HTTPS>>" memberEnd="_4bU3IN1lEeCjJqymtTccsA _4bVeMd1lEeCjJqymtTccsA">
+    <ownedEnd xmi:id="_4bU3IN1lEeCjJqymtTccsA" name="src" type="_9sMwUN1kEeCjJqymtTccsA" association="_4bUQEN1lEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4bVeMN1lEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4bU3Id1lEeCjJqymtTccsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_5_7dcN1lEeCjJqymtTccsA" name="&lt;&lt;HTTP/HTTPS>>" memberEnd="_5_8EgN1lEeCjJqymtTccsA _5_8Eg91lEeCjJqymtTccsA">
+    <ownedEnd xmi:id="_5_8EgN1lEeCjJqymtTccsA" name="src" type="_BMLeMN1lEeCjJqymtTccsA" association="_5_7dcN1lEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5_8Egt1lEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5_8Egd1lEeCjJqymtTccsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="__eTKoN1lEeCjJqymtTccsA" name="&lt;&lt;HTTP/HTTPS>>" memberEnd="__eTKod1lEeCjJqymtTccsA __eTxst1lEeCjJqymtTccsA">
+    <ownedEnd xmi:id="__eTKod1lEeCjJqymtTccsA" name="src" type="_B4l4QN1lEeCjJqymtTccsA" association="__eTKoN1lEeCjJqymtTccsA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__eTxsd1lEeCjJqymtTccsA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__eTxsN1lEeCjJqymtTccsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>

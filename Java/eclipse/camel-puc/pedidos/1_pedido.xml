@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pedido>
+    <id>2451256</id>
+    <dataCompra>2013-12-05T18:21:07.529-02:00</dataCompra>
+    <itens>
+         <item>
+            <formato>EBOOK</formato>
+            <quantidade>1</quantidade>
+            <livro>
+                <codigo>POL</codigo>
+                <titulo>O mínimo que você precisa saber para não ser um idiota</titulo>
+                <tituloCurto>O mínimo</tituloCurto>
+                <nomeAutor>Olavo de Carvalho</nomeAutor>
+                <valorEbook>61.11 </valorEbook>
+                <valorImpresso>50.90</valorImpresso>
+            </livro>
+        </item>
+    </itens>
+    <pagamento>
+        <status>CONFIRMADO</status>
+        <valor>61.11</valor>
+        <titular>João da Silva</titular>
+        <email-titular>joao.silva@abc.com</email-titular>
+    </pagamento>
+</pedido>

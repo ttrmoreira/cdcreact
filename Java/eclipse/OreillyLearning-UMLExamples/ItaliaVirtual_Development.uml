@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_V4XHQN1CEeCjJqymtTccsA" name="Package">
+  <elementImport xmi:id="_V5ZpO91CEeCjJqymtTccsA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_V5ZpPN1CEeCjJqymtTccsA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_V5ZpPd1CEeCjJqymtTccsA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_V5ZpPt1CEeCjJqymtTccsA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3WCX8N1CEeCjJqymtTccsA" name="JSP" clientDependency="_i2FFcN1DEeCjJqymtTccsA _kOjUQN1DEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_e2cnIN1DEeCjJqymtTccsA" name="JSPTags"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gk_zoN1DEeCjJqymtTccsA" name="JSFTags" clientDependency="_qCCV0N1DEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_i2FFcN1DEeCjJqymtTccsA" supplier="_gk_zoN1DEeCjJqymtTccsA" client="_3WCX8N1CEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_kOjUQN1DEeCjJqymtTccsA" supplier="_e2cnIN1DEeCjJqymtTccsA" client="_3WCX8N1CEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nFP0kN1DEeCjJqymtTccsA" name="JSFControle" clientDependency="_OpgoAN1PEeCjJqymtTccsA _MP4MQN1REeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_qCCV0N1DEeCjJqymtTccsA" supplier="_nFP0kN1DEeCjJqymtTccsA" client="_gk_zoN1DEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_V7We8N1EEeCjJqymtTccsA" name="ServiceLocator" clientDependency="_NFxH4N1QEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aS4qcN1FEeCjJqymtTccsA" name="BusinessEntity" clientDependency="_UDqKQN1UEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gnzlIN1FEeCjJqymtTccsA" name="BusinessSession" clientDependency="_HXAqwN1PEeCjJqymtTccsA _k9lRkN1QEeCjJqymtTccsA">
+    <interfaceRealization xmi:id="_k9lRkN1QEeCjJqymtTccsA" supplier="_fUPDcN1QEeCjJqymtTccsA" client="_gnzlIN1FEeCjJqymtTccsA" contract="_fUPDcN1QEeCjJqymtTccsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_HXAqwN1PEeCjJqymtTccsA" supplier="_aS4qcN1FEeCjJqymtTccsA" client="_gnzlIN1FEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_OpgoAN1PEeCjJqymtTccsA" supplier="_V7We8N1EEeCjJqymtTccsA" client="_nFP0kN1DEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KClDsN1QEeCjJqymtTccsA" name="InitialContext" clientDependency="_aSRlcN1QEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_NFxH4N1QEeCjJqymtTccsA" name="creates" supplier="_KClDsN1QEeCjJqymtTccsA" client="_V7We8N1EEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vfpj8N1QEeCjJqymtTccsA" name="ServiceFactory" clientDependency="_p44t8N1QEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_aSRlcN1QEeCjJqymtTccsA" name="looksUp" supplier="_Vfpj8N1QEeCjJqymtTccsA" client="_KClDsN1QEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_fUPDcN1QEeCjJqymtTccsA" name="looksUp or creates"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_p44t8N1QEeCjJqymtTccsA" supplier="_fUPDcN1QEeCjJqymtTccsA" client="_Vfpj8N1QEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_MP4MQN1REeCjJqymtTccsA" name="uses" supplier="_aS4qcN1FEeCjJqymtTccsA" client="_nFP0kN1DEeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ysxx0N1REeCjJqymtTccsA" name="ConfigJSF" clientDependency="_bcUhQN1REeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_bcUhQN1REeCjJqymtTccsA" supplier="_gk_zoN1DEeCjJqymtTccsA" client="_Ysxx0N1REeCjJqymtTccsA"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_yr_a8N1TEeCjJqymtTccsA" name="iOSEnviroment" clientDependency="_9sJ8wN1TEeCjJqymtTccsA">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_9sJ8wN1TEeCjJqymtTccsA" supplier="_V7We8N1EEeCjJqymtTccsA" client="_yr_a8N1TEeCjJqymtTccsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_19OiMN1TEeCjJqymtTccsA" name="Android Enviroment" clientDependency="_-oheYN1TEeCjJqymtTccsA">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_-oheYN1TEeCjJqymtTccsA" supplier="_V7We8N1EEeCjJqymtTccsA" client="_19OiMN1TEeCjJqymtTccsA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6IJqgN1TEeCjJqymtTccsA" name=".NET ERP"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UDqKQN1UEeCjJqymtTccsA" name=".NET Remoting" supplier="_6IJqgN1TEeCjJqymtTccsA" client="_aS4qcN1FEeCjJqymtTccsA"/>
+</uml:Package>

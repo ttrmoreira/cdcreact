@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_hdDj4K2qEeCei-qJLxqcPw">
+  <elementImport xmi:id="_hfa7YK2qEeCei-qJLxqcPw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_hffz4K2qEeCei-qJLxqcPw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_hffz4a2qEeCei-qJLxqcPw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_hffz4q2qEeCei-qJLxqcPw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Node" xmi:id="_0a-fEK2tEeCei-qJLxqcPw" name="Facebook"/>
+  <packagedElement xmi:type="uml:Device" xmi:id="_Wld9AK2vEeCei-qJLxqcPw" name="server: Sun Blade Server">
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_Z2elUK2wEeCei-qJLxqcPw" name="JBoss Application Server 7.0">
+      <ownedAttribute xmi:id="_xdfS4q2wEeCei-qJLxqcPw" name="dst" type="_0a-fEK2tEeCei-qJLxqcPw" association="_xder0K2wEeCei-qJLxqcPw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xdfS5K2wEeCei-qJLxqcPw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xdfS462wEeCei-qJLxqcPw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_wL2PYq2xEeCei-qJLxqcPw" name="dst" type="_stKiAK2xEeCei-qJLxqcPw" association="_wL0aMK2xEeCei-qJLxqcPw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wL22ca2xEeCei-qJLxqcPw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wL22cK2xEeCei-qJLxqcPw" value="1"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_3qLbcK2sEeCei-qJLxqcPw" fileName="FaceGen.ear"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_yjx3cK2uEeCei-qJLxqcPw" clientDependency="_8V9jMK2uEeCei-qJLxqcPw" fileName="OAuth.jar">
+        <manifestation xmi:id="_8V9jMK2uEeCei-qJLxqcPw" supplier="_3qLbcK2sEeCei-qJLxqcPw" client="_yjx3cK2uEeCei-qJLxqcPw" utilizedElement="_3qLbcK2sEeCei-qJLxqcPw"/>
+      </nestedClassifier>
+    </nestedNode>
+    <nestedNode xmi:id="_stKiAK2xEeCei-qJLxqcPw" name="MySql Database"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_xder0K2wEeCei-qJLxqcPw" name="&lt;&lt;HTTP>>" memberEnd="_xder0a2wEeCei-qJLxqcPw _xdfS4q2wEeCei-qJLxqcPw">
+    <ownedEnd xmi:id="_xder0a2wEeCei-qJLxqcPw" name="src" type="_Z2elUK2wEeCei-qJLxqcPw" association="_xder0K2wEeCei-qJLxqcPw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xdfS4a2wEeCei-qJLxqcPw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xdfS4K2wEeCei-qJLxqcPw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_85QLkK2wEeCei-qJLxqcPw" name="Client">
+    <ownedAttribute xmi:id="__tspI62wEeCei-qJLxqcPw" name="dst" type="_0a-fEK2tEeCei-qJLxqcPw" association="__tsCEK2wEeCei-qJLxqcPw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__ttQMa2wEeCei-qJLxqcPw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__ttQMK2wEeCei-qJLxqcPw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="__tsCEK2wEeCei-qJLxqcPw" name="&lt;&lt;HTTP>>" memberEnd="__tspIK2wEeCei-qJLxqcPw __tspI62wEeCei-qJLxqcPw">
+    <ownedEnd xmi:id="__tspIK2wEeCei-qJLxqcPw" name="src" type="_85QLkK2wEeCei-qJLxqcPw" association="__tsCEK2wEeCei-qJLxqcPw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__tspIq2wEeCei-qJLxqcPw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__tspIa2wEeCei-qJLxqcPw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_wL0aMK2xEeCei-qJLxqcPw" name="Datasource" memberEnd="_wL1oUK2xEeCei-qJLxqcPw _wL2PYq2xEeCei-qJLxqcPw">
+    <ownedEnd xmi:id="_wL1oUK2xEeCei-qJLxqcPw" name="src" type="_Z2elUK2wEeCei-qJLxqcPw" association="_wL0aMK2xEeCei-qJLxqcPw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wL2PYa2xEeCei-qJLxqcPw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wL2PYK2xEeCei-qJLxqcPw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>

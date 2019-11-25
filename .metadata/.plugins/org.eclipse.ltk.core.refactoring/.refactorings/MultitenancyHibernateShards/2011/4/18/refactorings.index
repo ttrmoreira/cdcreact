@@ -1,0 +1,8 @@
+1304201814655	Rename type 'Customer'
+1304202154716	Rename resource 'customer.hbm.xml'
+1304202304309	Rename package 'com.sample.shards.bean'
+1304202431320	Rename resource 'hibernate0.cfg.xml'
+1304202438195	Delete element
+1304202442130	Delete element
+1304202474801	Rename type 'CustomerShardSelectionStrategy'
+1304202584069	Move compilation unit

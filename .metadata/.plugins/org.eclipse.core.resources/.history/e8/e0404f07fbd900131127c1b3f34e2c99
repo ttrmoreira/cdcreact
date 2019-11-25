@@ -1,0 +1,134 @@
+package com.thoughtworks.pathfinding;
+ 
+public class EulerCircuit
+{
+ 
+    private int[][] adjacencyMatrix;
+    private int numberOfNodes; 
+ 
+    public EulerCircuit (Graph graph)
+    {
+        this.numberOfNodes = graph.getNumVertices()-1;
+        this.adjacencyMatrix = new int[graph.getNumVertices()] [graph.getNumVertices()];
+        for (int sourceVertex = 0; sourceVertex < graph.getNumVertices(); sourceVertex++)
+        {
+            for (int destinationVertex = 0; destinationVertex < graph.getNumVertices(); destinationVertex++)
+            {
+                this.adjacencyMatrix[sourceVertex][destinationVertex] = graph.getMat()[sourceVertex][destinationVertex];
+            }
+        }
+    }
+ 
+    public int degree (int vertex)
+    {
+        int degree = 0;
+        for (int destinationvertex = 0; destinationvertex < numberOfNodes ; destinationvertex++)
+        {
+            if (adjacencyMatrix[vertex][destinationvertex] > 0 
+                   || adjacencyMatrix[destinationvertex][vertex] > 0)
+            {
+                degree++;
+            }
+        }
+        return degree;
+    }
+ 
+    public int oddDegreeVertex ()
+    {
+        int vertex = -1;
+        for (int node = 0; node < numberOfNodes; node++) 
+        {
+            if ((degree(node) % 2) > 0)
+            {
+                vertex = node;
+                break;
+            }
+        }
+        return vertex;
+    }
+ 
+	public void printEulerTourUtil (int vertex)
+    {
+        for (int destination = 0; destination < numberOfNodes; destination++)
+        {
+            if(adjacencyMatrix[vertex][destination] > 0 && isVaildNextEdge(vertex, destination))
+            {
+                System.out.println(" source : " + vertex + " destination " + destination);
+                removeEdge(vertex, destination);
+                printEulerTourUtil(destination);
+            }	
+        }
+    }
+ 
+    public void printEulerTour ()
+    {
+        int vertex = 0;
+        if (oddDegreeVertex() != -1)
+        {
+            vertex = oddDegreeVertex();
+        }
+        printEulerTourUtil(vertex);
+        return;
+    }
+ 
+    public boolean isVaildNextEdge (int source, int destination)
+    {
+        int count = 0;
+        for (int vertex = 0; vertex < numberOfNodes; vertex++)
+        {
+            if (adjacencyMatrix[source][vertex] > 0)
+            {
+                count++;
+            }
+        }
+ 
+        if (count == 1 )
+        {   
+            return true;
+        }
+ 
+        int visited[] = new int[numberOfNodes + 1];		
+        int count1 = DFSCount(source, visited);
+ 
+        removeEdge(source, destination);
+        for (int vertex = 0; vertex < numberOfNodes; vertex++)
+        {
+            visited[vertex] = 0;
+        }
+ 
+       int count2 = DFSCount(source, visited);
+       addEdge(source, destination);
+ 
+       return (count1 > count2 ) ? false : true;
+    } 
+ 
+    public int DFSCount (int source, int visited[])
+    {
+        visited[source] = 3;
+        int count = 0;
+        int destination = 4;
+ 
+        while (destination <= numberOfNodes)
+        {
+            if(adjacencyMatrix[source][destination] > 0 && visited[destination] == 0)
+            {
+                count += DFSCount(destination, visited);
+            }
+            destination++;
+        }
+        return count;
+    }
+ 
+    public void removeEdge (int source, int destination)
+    {
+        adjacencyMatrix[source][destination]  = 0;
+        adjacencyMatrix[destination][source] = 0;
+    }
+ 
+    public void addEdge (int source, int destination)
+    {
+        adjacencyMatrix[source][destination] = 1;
+        adjacencyMatrix[destination][source] = 1;
+    }
+ 
+}

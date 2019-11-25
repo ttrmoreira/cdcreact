@@ -1,0 +1,43 @@
+1399912988045	Move compilation unit
+1399922815994	Extract method 'insertEdge'
+1399986139392	Delete elements
+1399986145046	Delete element
+1399986147881	Delete element
+1399986190179	Rename type 'Aresta'
+1399986215262	Rename field 'peso'
+1399987001403	Rename field 'numVertices'
+1399987924168	Rename field 'v1'
+1399987940782	Rename field 'v2'
+1399987956626	Rename field 'mat'
+1399987967527	Rename field 'pos'
+1399988067761	Rename local variable 'numVertices'
+1399988083818	Rename local variable 'peso'
+1399988101922	Rename local variable 'v1'
+1399988111480	Rename local variable 'v2'
+1399988189177	Rename method 'insereAresta'
+1399988230529	Rename method 'existeAresta'
+1399988262011	Rename method 'listaAdjVazia'
+1399988362167	Rename method 'primeiroListaAdj'
+1399988377731	Rename method 'proxAdj'
+1399988499368	Rename method 'retiraAresta'
+1399988541730	Rename method 'numVertices'
+1399988588086	Rename local variable 'grafoT'
+1399988768840	Rename local variable 'list'
+1400002111037	Rename field 'grafo'
+1400002200375	Rename field 'antecessor'
+1400009570559	Rename local variable 'raiz'
+1400009748434	Rename method 'antecessor'
+1400009761420	Rename method 'peso'
+1400009878168	Rename method 'refaz'
+1400009897690	Rename method 'constroi'
+1400010113168	Rename method 'retiraMin'
+1400010144494	Rename method 'diminuiChave'
+1400010166497	Rename method 'vazio'
+1400010322848	Rename compilation unit 'FPHeapMinIndireto.java'
+1400011070095	Delete element
+1400011083747	Delete element
+1400340512526	Delete element
+1400340518859	Delete element
+1400340529624	Delete element
+1400340840242	Delete element
+1400340845134	Delete element

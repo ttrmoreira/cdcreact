@@ -1,0 +1,15 @@
+1399679538472	Delete elements
+1399679545098	Move compilation units
+1399680848602	Move compilation unit
+1399745263925	Rename type 'CalculateDistance'
+1399745271761	Rename type 'NumberRoutes'
+1399745277186	Rename type 'NumberTrips'
+1399747112722	Move file
+1399747116241	Move file
+1399748106642	Extract method 'initialCharge'
+1399828543642	Rename type 'Grafo'
+1399835678746	Extract method 'getShortestRoute'
+1399838862914	Delete elements
+1399838878033	Delete elements
+1399838971987	Rename type 'TestaDijkstra'
+1399838993192	Delete elements

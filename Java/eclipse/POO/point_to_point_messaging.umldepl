@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_yApPMM2tEeCbwb7pqQ1EUw" type="UMLDeployment" name="point_to_point_messaging.umldepl" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_ydaDsM2tEeCbwb7pqQ1EUw" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_ydaqwM2tEeCbwb7pqQ1EUw" type="5001"/>
+    <children xmi:type="notation:Node" xmi:id="_ydb44M2tEeCbwb7pqQ1EUw" type="7001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ydb44c2tEeCbwb7pqQ1EUw" collapsed="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ydb44s2tEeCbwb7pqQ1EUw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ydb4482tEeCbwb7pqQ1EUw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ydaDsc2tEeCbwb7pqQ1EUw" fontName="Segoe UI"/>
+    <element xmi:type="uml:Package" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_x-kyoM2tEeCbwb7pqQ1EUw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydaDss2tEeCbwb7pqQ1EUw"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_IYQDAM2xEeCbwb7pqQ1EUw" type="2003">
+    <children xmi:type="notation:Node" xmi:id="_IYQDA82xEeCbwb7pqQ1EUw" type="5002"/>
+    <children xmi:type="notation:Node" xmi:id="_IYQqEM2xEeCbwb7pqQ1EUw" type="7004">
+      <children xmi:type="notation:Node" xmi:id="_eFCfkM2xEeCbwb7pqQ1EUw" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_eFDGoM2xEeCbwb7pqQ1EUw" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_eFDtsM2xEeCbwb7pqQ1EUw" type="7006">
+          <children xmi:type="notation:Node" xmi:id="_DUqX4M2yEeCbwb7pqQ1EUw" type="3006">
+            <element xmi:type="uml:Artifact" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_DUpw0M2yEeCbwb7pqQ1EUw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_DUqX4c2yEeCbwb7pqQ1EUw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ELfSMM2yEeCbwb7pqQ1EUw" type="3006">
+            <element xmi:type="uml:Artifact" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_ELerIM2yEeCbwb7pqQ1EUw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ELfSMc2yEeCbwb7pqQ1EUw"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_eFDtsc2xEeCbwb7pqQ1EUw" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_eFDtss2xEeCbwb7pqQ1EUw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_eFDts82xEeCbwb7pqQ1EUw"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_eFCfkc2xEeCbwb7pqQ1EUw" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_eEu9kM2xEeCbwb7pqQ1EUw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eFCfks2xEeCbwb7pqQ1EUw" x="54" y="17" width="216"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_thg_MM2yEeCbwb7pqQ1EUw" type="3005">
+        <children xmi:type="notation:Node" xmi:id="_thhmQM2yEeCbwb7pqQ1EUw" type="5008"/>
+        <children xmi:type="notation:Node" xmi:id="_thiNUM2yEeCbwb7pqQ1EUw" type="7006">
+          <children xmi:type="notation:Node" xmi:id="_0Y2qcM2yEeCbwb7pqQ1EUw" type="3006">
+            <element xmi:type="uml:Artifact" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_0Y01QM2yEeCbwb7pqQ1EUw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0Y2qcc2yEeCbwb7pqQ1EUw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_3x-iYM2yEeCbwb7pqQ1EUw" type="3006">
+            <element xmi:type="uml:Artifact" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_3x9UQM2yEeCbwb7pqQ1EUw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_3x-iYc2yEeCbwb7pqQ1EUw"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_thiNUc2yEeCbwb7pqQ1EUw" showTitle="true"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_thiNUs2yEeCbwb7pqQ1EUw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_thiNU82yEeCbwb7pqQ1EUw"/>
+        </children>
+        <styles xmi:type="notation:ShapeStyle" xmi:id="_thg_Mc2yEeCbwb7pqQ1EUw" fontName="Segoe UI"/>
+        <element xmi:type="uml:ExecutionEnvironment" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_thUK4M2yEeCbwb7pqQ1EUw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_thg_Ms2yEeCbwb7pqQ1EUw" x="44" y="222" width="211" height="106"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_IYQqEc2xEeCbwb7pqQ1EUw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_IYQqEs2xEeCbwb7pqQ1EUw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_IYQDAc2xEeCbwb7pqQ1EUw" fontName="Segoe UI"/>
+    <element xmi:type="uml:Device" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_IYG5EM2xEeCbwb7pqQ1EUw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IYQDAs2xEeCbwb7pqQ1EUw" x="320" y="60" width="351" height="411"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_yApPMc2tEeCbwb7pqQ1EUw"/>
+  <element xmi:type="uml:Package" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_x-kyoM2tEeCbwb7pqQ1EUw"/>
+  <edges xmi:type="notation:Edge" xmi:id="_835TUM2yEeCbwb7pqQ1EUw" type="4004" source="_thg_MM2yEeCbwb7pqQ1EUw" target="_eFCfkM2xEeCbwb7pqQ1EUw">
+    <children xmi:type="notation:Node" xmi:id="_8356YM2yEeCbwb7pqQ1EUw" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8356Yc2yEeCbwb7pqQ1EUw" x="39" y="38"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_835TUc2yEeCbwb7pqQ1EUw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_835TUs2yEeCbwb7pqQ1EUw" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_831o8M2yEeCbwb7pqQ1EUw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_835TU82yEeCbwb7pqQ1EUw" points="[3, -50, -10, 155]$[9, -155, -4, 50]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IN1Q0M2zEeCbwb7pqQ1EUw" id="(0.56398106,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_83-L0M2yEeCbwb7pqQ1EUw" type="4004" source="_thg_MM2yEeCbwb7pqQ1EUw" target="_eFCfkM2xEeCbwb7pqQ1EUw">
+    <children xmi:type="notation:Node" xmi:id="_83-y4M2yEeCbwb7pqQ1EUw" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_83-y4c2yEeCbwb7pqQ1EUw" x="-31" y="-43"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_83-L0c2yEeCbwb7pqQ1EUw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_83-L0s2yEeCbwb7pqQ1EUw" fontName="Segoe UI"/>
+    <element xmi:type="uml:CommunicationPath" href="platform:/resource/JMSProject/point_to_point_messaging.uml#_831o8M2yEeCbwb7pqQ1EUw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_83-L082yEeCbwb7pqQ1EUw" points="[-2, -21, 0, 118]$[-13, -126, -11, 13]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_84BPIM2yEeCbwb7pqQ1EUw" id="(0.43601894,0.22)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_84BPIc2yEeCbwb7pqQ1EUw" id="(0.36574075,0.87)"/>
+  </edges>
+</notation:Diagram>
